@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ea4d06378.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100&family=Koulen&display=swap" rel="stylesheet">
+
+    <title>Nueve Lunas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <a class="nav-bar" href="/index.html">Inicio</a>
+            <a class="nav-bar" href="/nostras.html">Nosotras</a>
+            <a class="nav-bar" href="/informacion.html">Informacion</a>
+            <a class="nav-bar" href="/contacto.html">Contacto</a>
+              
+        </nav>
+        <img src="/img/NueveLunasH.png" alt="NueveLunas">
+    </header>
+   <main> 
+            <section>
+                <article class="container1">
+                    <div class="box1">
+                    <h2>Contacto</h2>
+                    <form action="" class="formulario" id="formulario">
+                        <!-- Grupo nombre -->
+                        <div class="formulario__grupo" id="grupo__nombre"> 
+                            <label for="nombre" class="formulario__label">Nombre</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="formulario__input" name="nombre" id="nombre" placeholder="Maria">
+                            <i class="formulario_validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div> 
+                       <p class="formulario__input-error">El Nombre no puede contener ni numeros ni simbolos</p>
+                        </div>
+                        <!-- Grupo apellido -->
+                        <div class="formulario__grupo" id="grupo__apellido"> 
+                            <label for="apellido" class="formulario__label">Apellido</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="formulario__input" name="apellido" id="apellido" placeholder="Perez">
+                            <i class="formulario_validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div> 
+                       <p class="formulario__input-error">El Apellido no puede contener ni numeros ni simbolos</p>
+                        </div>
+                        <!-- Grupo mail -->
+                        <div class="formulario__grupo" id="grupo__mail"> 
+                            <label for="email" class="formulario__label">Correo Electronico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="formulario__input" name="mail" id="mail" placeholder="correo@correo.com">
+                            <i class="formulario_validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div> 
+                       <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo </p>
+                        </div>
+                        <!-- Grupo telefono -->
+                        <div class="formulario__grupo" id="grupo__telefono"> 
+                            <label for="telefono" class="formulario__label">Telefono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="formulario__input" name="telefono" id="telefono" placeholder="0303456">
+                            <i class="formulario_validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div> 
+                       <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 digitos </p>
+                        </div>
+                         <!-- Grupo consulta -->
+                         <div class="unacolumna">
+                         <div class="formulario__grupo" id="grupo__consulta"> 
+                            <label for="consulta" class="formulario__label">Consulta</label>
+                        <div class="formulario__grupo-input">
+                            <textarea class="formulario_input" name="text" id="text" cols="50" rows="10" required="">Escriba aquí su consulta</textarea>
+                            
+                        </div> 
+                       
+                    </div>
+                        
+                        <div class="formulario__grupo formulario__grupo-bnt-enviar">
+                            <button type="submit" class="formulario__bnt">Enviar</button>
+                            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Su consulta se envvió exitosamente</p>
+                        </div>
+                    </div>
+                    </form>
+
+                        </div>
+                
+                
+                   
+                </article>
+                <aside>
+                    <div class="asid" >
+                        <h2>Sobre Nosotras</h2>
+                        <p>Ofrecemos un espacio de escucha, acompañamiento e información presencial para vivir un embarazo consciente y en plenitud. </p>
+                        <br>
+                        <p>Que consta de ocho clases presenciales.
+                            <ul>
+                                <li>Cuatro de charlas</li>
+                                <li>Cuatro de gimnasia</li></ul>
+                                <br><br>
+                                Dictadas por 
+                            <ul> 
+                                <li>Estefania Madrano (Lic. Obstetricia)</li> 
+                                <li>Vanina Avero (Inst. de Gimnasia)</li></ul>
+                        </p>
+                        <br>
+                        <div class="icon">
+                        <a href="https://www.instagram.com/nuevelunas_curso/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100008403466830"><i class="fa fa-facebook-official fa-2x"  aria-hidden="true"></i></a>
+                        </div>
+
+                    </div>
+                </aside>
+            
+            
+                
+            </section>
+    <footer>
+        <div class="icon1">
+            <a href="https://www.instagram.com/nuevelunas_curso/"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100008403466830"><i class="fa fa-facebook-official fa-1x"  aria-hidden="true"></i></a>
+            </div> 
+        <p>Derechos reservados 2022</p>
+    </footer>
+    <script src="/js/formulario.js"></script>
+</body>
+</html>
